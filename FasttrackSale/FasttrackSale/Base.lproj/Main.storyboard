@@ -228,7 +228,7 @@
                                 </constraints>
                                 <state key="normal" image="cyan_btn1.png"/>
                                 <connections>
-                                    <action selector="logoutPressedWith_sender:" destination="JUt-lo-m7K" eventType="touchUpInside" id="SUE-e8-Vaz"/>
+                                    <action selector="placeOrderPressedWith_sender:" destination="JUt-lo-m7K" eventType="touchUpInside" id="Ite-h5-Ul4"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r8M-iI-QoT">
@@ -238,7 +238,7 @@
                                 </constraints>
                                 <state key="normal" image="btn_bulge1.png"/>
                                 <connections>
-                                    <action selector="logoutPressedWith_sender:" destination="JUt-lo-m7K" eventType="touchUpInside" id="Cz7-LT-9ek"/>
+                                    <action selector="orderHistoryPressedWith_sender:" destination="JUt-lo-m7K" eventType="touchUpInside" id="pcc-WZ-hVZ"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6g2-zZ-47v">
@@ -248,7 +248,7 @@
                                 </constraints>
                                 <state key="normal" image="blue_btn1.png"/>
                                 <connections>
-                                    <action selector="logoutPressedWith_sender:" destination="JUt-lo-m7K" eventType="touchUpInside" id="SsG-5x-wwN"/>
+                                    <action selector="trackOrderPressedWith_sender:" destination="JUt-lo-m7K" eventType="touchUpInside" id="kTk-Kg-qaJ"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Place Order" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vUK-hR-yfE">
@@ -306,6 +306,9 @@
                     </view>
                     <connections>
                         <outlet property="btnLogout" destination="9Zb-lr-rlr" id="8RD-p0-SKh"/>
+                        <outlet property="btnOrderHistory" destination="r8M-iI-QoT" id="DuE-FE-nac"/>
+                        <outlet property="btnPlaceOrder" destination="SfO-94-Iiw" id="uvs-iB-Syt"/>
+                        <outlet property="btnTrackOrder" destination="6g2-zZ-47v" id="yj8-Iu-aIU"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="b5P-Vq-w89" userLabel="First Responder" sceneMemberID="firstResponder"/>

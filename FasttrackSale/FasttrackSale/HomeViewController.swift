@@ -32,8 +32,20 @@ class HomeViewController: UIViewController {
     }*/
     
     @IBAction func logoutPressed(_sender: UIButton){
-        //self.dismiss(animated: true, completion: nil)
+        
         self.navigationController?.popViewController(animated: true)
+    }
+    
+    @IBAction func placeOrderPressed(_sender: UIButton){
+        
+    }
+    
+    @IBAction func trackOrderPressed(_sender: UIButton){
+        
+    }
+    
+    @IBAction func orderHistoryPressed(_sender: UIButton){
+        
     }
     
 
