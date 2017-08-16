@@ -8,9 +8,10 @@
 
 import UIKit
 
-class LoginViewController: UIViewController {
+class LoginViewController: UIViewController,UITextFieldDelegate {
 
     @IBOutlet var btnLogin: UIButton?
+    @IBOutlet var btnRegister: UIButton?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,6 +21,11 @@ class LoginViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    //MARK:- UITextField delegate methods
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        return true
     }
 
 
