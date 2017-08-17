@@ -12,10 +12,14 @@ class LoginViewController: UIViewController,UITextFieldDelegate {
 
     @IBOutlet var btnLogin: UIButton?
     @IBOutlet var btnRegister: UIButton?
+    @IBOutlet var tfUsername: UITextField?
+    @IBOutlet var tfPassword: UITextField?
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        tfUsername?.delegate = self
+        tfPassword?.delegate = self
     }
 
     override func didReceiveMemoryWarning() {
@@ -25,6 +29,15 @@ class LoginViewController: UIViewController,UITextFieldDelegate {
     
     //MARK:- UITextField delegate methods
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        
+        if (textField == tfUsername) {
+            textField.resignFirstResponder()
+            tfPassword?.becomeFirstResponder()
+        }
+        else if (textField == tfPassword) {
+            textField.resignFirstResponder()
+        }
+        
         return true
     }
 

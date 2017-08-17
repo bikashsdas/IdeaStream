@@ -26,10 +26,8 @@ class HomeViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    /*
-    @IBAction func cancelPressed(_ sender: UIBarButtonItem) {
-        self.dismiss(animated: true, completion: nil)
-    }*/
+    
+    //MARK:- Buttons actions
     
     @IBAction func logoutPressed(_sender: UIButton){
         

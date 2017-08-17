@@ -114,6 +114,8 @@
                     <connections>
                         <outlet property="btnLogin" destination="Tgm-he-BuG" id="IIO-gY-Lwa"/>
                         <outlet property="btnRegister" destination="zzQ-xk-lG7" id="M6a-Xb-zG3"/>
+                        <outlet property="tfPassword" destination="xMf-3X-3yh" id="81Q-I3-DMm"/>
+                        <outlet property="tfUsername" destination="ssO-IL-ewt" id="f80-J6-oze"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
