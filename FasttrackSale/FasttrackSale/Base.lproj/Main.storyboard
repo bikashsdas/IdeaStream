@@ -58,7 +58,7 @@
                                     <color key="titleShadowColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="JUt-lo-m7K" kind="show" id="tkG-zb-87i"/>
+                                    <action selector="btnLoginPressedWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="j4H-ex-yfn"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Username" textAlignment="center" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="ssO-IL-ewt">
@@ -125,7 +125,7 @@
         <!--Home View Controller-->
         <scene sceneID="dVs-Hp-E7I">
             <objects>
-                <viewController id="JUt-lo-m7K" customClass="HomeViewController" customModule="FasttrackSale" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="HomeControllerSBID" id="JUt-lo-m7K" customClass="HomeViewController" customModule="FasttrackSale" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="pde-Jx-ERu"/>
                         <viewControllerLayoutGuide type="bottom" id="Rij-fk-1Gh"/>
