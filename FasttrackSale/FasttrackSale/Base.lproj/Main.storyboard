@@ -319,6 +319,10 @@
                         <outlet property="btnOrderHistory" destination="r8M-iI-QoT" id="DuE-FE-nac"/>
                         <outlet property="btnPlaceOrder" destination="SfO-94-Iiw" id="uvs-iB-Syt"/>
                         <outlet property="btnTrackOrder" destination="6g2-zZ-47v" id="yj8-Iu-aIU"/>
+                        <outlet property="ivCustomerProfilePic" destination="OF5-Nr-R49" id="rvO-K7-m7U"/>
+                        <outlet property="lblCustomerContactNumber" destination="mUG-H8-DRH" id="9ye-7s-QTf"/>
+                        <outlet property="lblCustomerEmail" destination="Fjr-mw-b59" id="lQA-wB-Qhf"/>
+                        <outlet property="lblCustomerName" destination="NDk-SJ-VCe" id="FOM-6j-cSv"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="b5P-Vq-w89" userLabel="First Responder" sceneMemberID="firstResponder"/>

@@ -14,6 +14,10 @@ class HomeViewController: UIViewController {
     @IBOutlet var btnPlaceOrder: UIButton?
     @IBOutlet var btnTrackOrder: UIButton?
     @IBOutlet var btnOrderHistory: UIButton?
+    @IBOutlet var ivCustomerProfilePic: UIImageView?
+    @IBOutlet var lblCustomerName: UILabel?
+    @IBOutlet var lblCustomerContactNumber: UILabel?
+    @IBOutlet var lblCustomerEmail: UILabel?
 
     override func viewDidLoad() {
         super.viewDidLoad()
